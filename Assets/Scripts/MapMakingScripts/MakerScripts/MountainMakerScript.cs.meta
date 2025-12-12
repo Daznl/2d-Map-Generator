@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: fe36fee8f0a6d964ca86cffbd4984ed5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MountainMaker: {fileID: 8294207772525247050, guid: 5986a702e2fb25e4e9df60be8446be7f, type: 3}
+  - Land: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

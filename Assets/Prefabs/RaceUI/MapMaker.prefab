@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1326017992899343804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326017992899343806}
+  - component: {fileID: 1326017992899343801}
+  - component: {fileID: 1326017992899343802}
+  - component: {fileID: 1326017992899343803}
+  - component: {fileID: 1326017992899343800}
+  - component: {fileID: 1326017992899343781}
+  - component: {fileID: 1326017992899343780}
+  - component: {fileID: 1326017992899343783}
+  - component: {fileID: 1326017992899343782}
+  m_Layer: 0
+  m_Name: MapMaker
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1326017992899343806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1326017992899343801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a7aecfe365189a4cb0593f7e1ab59ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: {fileID: 1326017992899343802}
+  M: {fileID: 1326017992899343800}
+  G: {fileID: 1326017992899343781}
+  F: {fileID: 1326017992899343780}
+  S: {fileID: 1326017992899343783}
+  R: {fileID: 1326017992899343782}
+  LowlandMaker: {fileID: 3926869014998537161, guid: da7c0a43c9e13da4d96a5e883d4f6a57, type: 3}
+  SandMaker: {fileID: 6827660638123159848, guid: 8aa61e2d09e1b684fa6254ca998312f4, type: 3}
+  HillMaker: {fileID: 5915028319434755519, guid: e067ae4a5c452aa42976c40a5f7c47a5, type: 3}
+  PeakMaker: {fileID: 2029176476730395302, guid: 229385255f5c1fa4292bef61a6125304, type: 3}
+  HighlandMaker: {fileID: 540401097169990679, guid: f6c4700d2175b554a845e5f6668fe3cf, type: 3}
+  DeepWaterMaker: {fileID: 7324061216616981896, guid: bd74ecce234ea89439a098c4bc56cdf9, type: 3}
+  ShallowWaterMaker: {fileID: 1597153943611083149, guid: 79eb0e49c5996fc4ba71e923b9158b00, type: 3}
+  WaterMaker: {fileID: 6536607125574463449, guid: 1b8268d18f74f3048bde6a83a74a3558, type: 3}
+  LandMaker: {fileID: 4279279913517691210, guid: 15d952b8f6e60074f9488ca230401a10, type: 3}
+  DeepWater: {fileID: 158615505825005669, guid: 09a1ebdd5d7bb1f4683a3eff390ba99b, type: 3}
+  Highland: {fileID: 7932346836736985618, guid: f360b0bcf7a11d14bbda123bf3acd698, type: 3}
+  Hill: {fileID: 465039794152561379, guid: efde134f4256ddf4faf67467bcf25b33, type: 3}
+  Land: {fileID: 9084443931864796800, guid: 8322934052a2af044a57126220411a69, type: 3}
+  Lowland: {fileID: 4590129880021878555, guid: 9de90a42153b05e448c056e437846272, type: 3}
+  Mountain: {fileID: 2605442105312179878, guid: f6af87099a1284f4383b2f0f464a3621, type: 3}
+  Sand: {fileID: 4677466397174910368, guid: f00d42415253eda408728d4b0f2980aa, type: 3}
+  ShallowWater: {fileID: 3350857966280305515, guid: cdd9c266c665d224d962c903819a3ca3, type: 3}
+  Water: {fileID: 7472395736997326502, guid: c9456ba64b27ea94da8d60cc92bef162, type: 3}
+--- !u!114 &1326017992899343802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43f580a7a3c5324f8d901baed5a9ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M: {fileID: 1326017992899343800}
+  S: {fileID: 1326017992899343803}
+  G: {fileID: 1326017992899343781}
+  landPrefab: {fileID: 7465093067280803057, guid: 49c9f9c00e481674e8d619e324882c7c, type: 3}
+  riverPrefab: {fileID: 6023599576471044094, guid: af7d4afbda156c74ba9f311a89d96d31, type: 3}
+  deepWaterType: {fileID: 11400000, guid: b65bfd96669b40f4ba97014961ec50a1, type: 2}
+  waterType: {fileID: 11400000, guid: 3153d72157773c3448c2b55b1d2a5aad, type: 2}
+  shallowWaterType: {fileID: 11400000, guid: 412225ed3c9428d4ea85a93d6367d02f, type: 2}
+  lowlandType: {fileID: 11400000, guid: 297c0c6bc69c9934aa653edb8e73da4a, type: 2}
+  sandType: {fileID: 11400000, guid: 0b2be8b3f63bc0c4bb19c2ec2b236beb, type: 2}
+  landType: {fileID: 11400000, guid: c5e406604f4afd84492c55defda9ccc1, type: 2}
+  hillType: {fileID: 11400000, guid: 963f9c12b43f147429044a4cb0ae14fc, type: 2}
+  highlandType: {fileID: 11400000, guid: 7df723b18b7f1bc4c955d3e1595332b2, type: 2}
+  mountainType: {fileID: 11400000, guid: 6dfa01b99e670d4478701da332a1d5d4, type: 2}
+  peakType: {fileID: 11400000, guid: 823f6d3978e81e740acfa529c6f97cc7, type: 2}
+  Test1Type: {fileID: 11400000, guid: a636f3829a3473a488ca73564da7f5b9, type: 2}
+  Test2Type: {fileID: 11400000, guid: 1508de6890480094a97c550a1e96ca54, type: 2}
+  Test3Type: {fileID: 11400000, guid: 80ef16ade69689446b1d06069df4981a, type: 2}
+  Test4Type: {fileID: 11400000, guid: a0b2349ac75888045a74a63672ddd942, type: 2}
+  Test5Type: {fileID: 11400000, guid: 5c8dd13e743cc2649b2d4ce2ccc8adfb, type: 2}
+  Test6Type: {fileID: 11400000, guid: c9823f7d2a295ef499894ea94eb5330d, type: 2}
+  Test7Type: {fileID: 11400000, guid: 3308ab12f4efa344da31a7b8fb1e0747, type: 2}
+  Test8Type: {fileID: 11400000, guid: eded6f48976c6f5428acb3ac92d357ad, type: 2}
+  Test9Type: {fileID: 11400000, guid: 08edd1340db1a6841a51170cc5556bac, type: 2}
+  Test10Type: {fileID: 11400000, guid: 229a324a7479d9c41aac498ed4b678be, type: 2}
+  TestOtherType: {fileID: 11400000, guid: f9e4b7b0b21605c40bcf2ceda496802d, type: 2}
+--- !u!114 &1326017992899343803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7942cf5d93966054f9480f5b6e62715e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M: {fileID: 1326017992899343800}
+--- !u!114 &1326017992899343800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d607b74b5f097044a12ffe4f81f8fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S: {fileID: 0}
+  gameBoundarySize: 300
+--- !u!114 &1326017992899343781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9c49db9c46b804590d7bc4942640a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M: {fileID: 1326017992899343800}
+  S: {fileID: 1326017992899343803}
+  A: {fileID: 1326017992899343802}
+  landPrefab: {fileID: 4279279913517691210, guid: 15d952b8f6e60074f9488ca230401a10, type: 3}
+  deepWaterElevation: 3
+  waterElevation: 2
+  shallowWaterElevation: 1
+  lowlandElevation: 1
+  landElevation: 0
+  sandElevation: 0
+  hillElevation: -1
+  highlandElevation: -2
+  mountainElevation: -3
+  peakElevation: -4
+  waterInitialChance: 100
+  waterChance: 50
+  shallowWaterChance: 20
+  shallowWaterInitialChance: 100
+  mountainMakerChance: 20
+  highlandMakerInitialChance: 90
+  highlandMakerChance: 40
+  hillMakerInitialChance: 100
+  hillMakerInitialLandChance: 5
+  hillMakerChance: 35
+  sandMakerInitialChance: 8
+  sandMakerChance: 80
+  lowlandMakerChance: 55
+  lowlandMakerInitialChance: 5
+--- !u!114 &1326017992899343780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37209e125d0a07c44b1ca3f314ca4051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M: {fileID: 1326017992899343800}
+  S: {fileID: 1326017992899343803}
+  G: {fileID: 1326017992899343781}
+  A: {fileID: 1326017992899343802}
+--- !u!114 &1326017992899343783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2988cd38e1f2fb47975a399fe9acd70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M: {fileID: 1326017992899343800}
+  S: {fileID: 1326017992899343803}
+  A: {fileID: 1326017992899343802}
+  G: {fileID: 1326017992899343781}
+  peakInitialChance: 1
+  peakMakerInitialChance: 7
+  RiverMaker: {fileID: 5750401083009377709, guid: 9a8376e606c15ab45a967300a5239469, type: 3}
+  landCounter: 0
+  waterCounter: 0
+--- !u!114 &1326017992899343782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326017992899343804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcf4e6fc3bf6254986e5d37dde3e644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  M: {fileID: 1326017992899343800}
+  S: {fileID: 1326017992899343803}
+  A: {fileID: 1326017992899343802}
+  G: {fileID: 1326017992899343781}
+  mainWoodMaker: {fileID: 1104009585101700553, guid: caf1386dc8db406499867a2f71f64361, type: 3}
+  bonusWoodMaker: {fileID: 1104009585101700553, guid: 22b79d8ac8db2b74484807b3563f41c7, type: 3}
+  mainOreMaker: {fileID: 7406359565212748294, guid: 40449e2ce964114409fb27f3a27025b0, type: 3}
+  bonusOreMaker: {fileID: 2538027076839290223, guid: 1cfff5f36fab31c46acd100019b99f98, type: 3}
+  luxuryResourceMaker: {fileID: 697741022457980525, guid: 52690c6c3e1ec5742b16268f1152afeb, type: 3}
+  bonusFoodMaker: {fileID: 8004913247670892945, guid: e416276a1d892554ea7f9460851d84ec, type: 3}

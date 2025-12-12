@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 3c27a20b3e9f56949bb792890b8fd449
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - HighlandMaker: {fileID: 540401097169990679, guid: f6c4700d2175b554a845e5f6668fe3cf, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

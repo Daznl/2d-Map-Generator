@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: bba85c1c01d4cce479ba51a2246a5c7d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LandMaker: {fileID: 4279279913517691210, guid: 15d952b8f6e60074f9488ca230401a10, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

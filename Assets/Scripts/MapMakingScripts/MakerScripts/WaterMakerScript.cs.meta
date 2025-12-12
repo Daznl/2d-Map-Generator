@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 04f101d2db523864680ba71d3b6cdd6e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - WaterMaker: {fileID: 6536607125574463449, guid: 1b8268d18f74f3048bde6a83a74a3558, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

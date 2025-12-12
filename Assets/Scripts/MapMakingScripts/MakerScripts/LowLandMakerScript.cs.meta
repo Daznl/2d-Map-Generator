@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 683184b58e38fac49b09aff5d0138432
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LowlandMaker: {fileID: 3926869014998537161, guid: da7c0a43c9e13da4d96a5e883d4f6a57, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

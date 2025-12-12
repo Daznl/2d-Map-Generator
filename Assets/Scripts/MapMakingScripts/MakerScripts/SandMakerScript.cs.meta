@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: bdd857109566a0b49a0a80c8c1ecc775
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SandMaker: {fileID: 6827660638123159848, guid: 8aa61e2d09e1b684fa6254ca998312f4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

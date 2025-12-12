@@ -1,0 +1,65 @@
+fileFormatVersion: 2
+guid: 5a7aecfe365189a4cb0593f7e1ab59ea
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LandMaker: {fileID: 4279279913517691210, guid: 15d952b8f6e60074f9488ca230401a10, type: 3}
+  - DesertMaker: {fileID: 5131430218172925264, guid: 8464e4b172ee56748a746d5ca6f6adb8, type: 3}
+  - SwampMaker: {fileID: 4570196171474203196, guid: b8109845b9e895f4191797ce95fd9959, type: 3}
+  - LowlandMaker: {fileID: 3926869014998537161, guid: da7c0a43c9e13da4d96a5e883d4f6a57, type: 3}
+  - SandMaker: {fileID: 6827660638123159848, guid: 8aa61e2d09e1b684fa6254ca998312f4, type: 3}
+  - HillMaker: {fileID: 5915028319434755519, guid: e067ae4a5c452aa42976c40a5f7c47a5, type: 3}
+  - PeakMaker: {fileID: 2029176476730395302, guid: 229385255f5c1fa4292bef61a6125304, type: 3}
+  - HighlandMaker: {fileID: 540401097169990679, guid: f6c4700d2175b554a845e5f6668fe3cf, type: 3}
+  - DeepWaterMaker: {fileID: 7324061216616981896, guid: bd74ecce234ea89439a098c4bc56cdf9, type: 3}
+  - ShallowWaterMaker: {fileID: 1597153943611083149, guid: 79eb0e49c5996fc4ba71e923b9158b00, type: 3}
+  - WaterMaker: {fileID: 6536607125574463449, guid: 1b8268d18f74f3048bde6a83a74a3558, type: 3}
+  - SandDuneMaker: {fileID: 1020159093519721525, guid: 194b8cdabeb494e4a8bdfbc186d70bbc, type: 3}
+  - MountainMaker: {fileID: 8294207772525247050, guid: 5986a702e2fb25e4e9df60be8446be7f, type: 3}
+  - RiverStart: {fileID: 5750401083009377709, guid: 9a8376e606c15ab45a967300a5239469, type: 3}
+  - Ztest: {instanceID: 0}
+  - LakeMaker: {instanceID: 0}
+  - DeepWater: {fileID: 158615505825005669, guid: 09a1ebdd5d7bb1f4683a3eff390ba99b, type: 3}
+  - Highland: {fileID: 7932346836736985618, guid: f360b0bcf7a11d14bbda123bf3acd698, type: 3}
+  - Hill: {fileID: 465039794152561379, guid: efde134f4256ddf4faf67467bcf25b33, type: 3}
+  - Land: {fileID: 9084443931864796800, guid: 8322934052a2af044a57126220411a69, type: 3}
+  - Lowland: {fileID: 4590129880021878555, guid: 9de90a42153b05e448c056e437846272, type: 3}
+  - Mountain: {fileID: 2605442105312179878, guid: f6af87099a1284f4383b2f0f464a3621, type: 3}
+  - Peak: {instanceID: 0}
+  - Sand: {fileID: 4677466397174910368, guid: f00d42415253eda408728d4b0f2980aa, type: 3}
+  - ShallowWater: {fileID: 3350857966280305515, guid: cdd9c266c665d224d962c903819a3ca3, type: 3}
+  - Water: {fileID: 7472395736997326502, guid: c9456ba64b27ea94da8d60cc92bef162, type: 3}
+  - SandDune: {instanceID: 0}
+  - RiverStartMountain: {fileID: 240567312075888171, guid: 2c8bd66ef768d5f4eb17944200dfb24e, type: 3}
+  - RiverStartHighland: {fileID: 7269173857503633502, guid: 9abc2400ac9cbf64f8d293fdafc3ea5c, type: 3}
+  - RiverStraightMountain: {fileID: 7710109927994250120, guid: 84428a87555b75140ae76170f2bd1859, type: 3}
+  - RiverStraightHighland: {fileID: 7118170013985344952, guid: 4f368202ecd1f6645afb7bafe468f931, type: 3}
+  - RiverStraightHill: {fileID: 4552124000710715779, guid: dce997f931e946248979d97f5c934d9a, type: 3}
+  - RiverStraightLand: {fileID: 9064926093208967278, guid: 63e617331a4b9dc48a6042e254e15604, type: 3}
+  - RiverStraightSand: {fileID: 4429830901737705148, guid: f2c33f008ec6fd24db5dc22befbc6bd1, type: 3}
+  - RiverBendMountain: {fileID: 883652881672702964, guid: 3ae78f16d02af2e4b8570b3fa2570407, type: 3}
+  - RiverBendHighland: {fileID: 7627957419350793995, guid: 4f2a60f0df72b7445857aa1c30bbf6a2, type: 3}
+  - RiverBendHill: {fileID: 178105458354803293, guid: e69691a74811ec94d8e8915438a180e3, type: 3}
+  - RiverBendLand: {fileID: 8566987523244144382, guid: 2b18e0bc35e1367478f42bfc75de9fda, type: 3}
+  - RiverBendSand: {fileID: 7700960000312925587, guid: 950aafed582063349a876f045ae62fc1, type: 3}
+  - RiverMergerMountain: {fileID: 6188993564464786659, guid: ce0c5a01d74098a45a5ab7c48e2391ac, type: 3}
+  - RiverMergerHighland: {fileID: 7650876857503032014, guid: f6066bb37dd44d848a8eed6bda59e036, type: 3}
+  - RiverMergerHill: {fileID: 4753974865517352124, guid: 78a247a18d5c9d74486e52e9ea4d2690, type: 3}
+  - RiverMergerLand: {fileID: 4311914925912696144, guid: ab8146e923371a648a7fb5badd208cc0, type: 3}
+  - RiverMergerSand: {fileID: 164034601121769782, guid: 57c001b8ab5b4614aa140441c7676fb1, type: 3}
+  - RiverEndMountain: {fileID: 4919218396871187132, guid: 19937004441285f459d629df7dd7a254, type: 3}
+  - RiverEndHighland: {fileID: 3420099145333116713, guid: ab0679715136bb447a31cef3de65878e, type: 3}
+  - RiverEndHill: {fileID: 6431633510767981529, guid: 4b69aa17a14deb042be7d3013094be76, type: 3}
+  - RiverEndLand: {fileID: 7178108641621748433, guid: 9dd349277d2f82244b09b8a2bfc9e205, type: 3}
+  - RiverEndSand: {fileID: 7200080574843287969, guid: a031ca18465650c4389426974de78383, type: 3}
+  - RiverQuadMountain: {fileID: 167472952696136951, guid: 48dea3018f0845f4b8668a89395068f0, type: 3}
+  - RiverQuadHighland: {fileID: 4196262320283601967, guid: 750fbd4c524901c48a0b3a1ce4836680, type: 3}
+  - RiverQuadHill: {fileID: 3045891686692937888, guid: 657b68339d7c9aa4a8dcc9601a131312, type: 3}
+  - RiverQuadLand: {fileID: 4893659512193267487, guid: 70ac5372b7092e04ba8f188df1456557, type: 3}
+  - RiverQuadSand: {fileID: 2947079562836284143, guid: f709e83545a8e184eacd19cf82d75135, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

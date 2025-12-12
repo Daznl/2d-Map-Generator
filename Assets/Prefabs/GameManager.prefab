@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3425373580003857005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3425373580003857006}
+  - component: {fileID: 3425373580003857004}
+  - component: {fileID: 3425373580003857007}
+  - component: {fileID: 3425373580003857001}
+  m_Layer: 0
+  m_Name: SpriteGeneration
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3425373580003857006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580003857005}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3425373580202519043}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3425373580003857004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580003857005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dffbdb3bda835d4990d5290a27c8039, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 3425373580202519046}
+  spriteMaker: {fileID: 3425373580003857007}
+  M: {fileID: 0}
+  riverSpriteManager: {fileID: 3425373580003857001}
+  staticMapImage: {fileID: 0}
+  displayImage: {fileID: 0}
+  deepWaterSprite: {fileID: 21300000, guid: 44924630451c90244bc6e28d65f43787, type: 3}
+  waterSprite: {fileID: 21300000, guid: 7c4d4aa0b38a5d04d8f3927a76d6b6a9, type: 3}
+  shallowWaterSprite: {fileID: 21300000, guid: f434a8df9e6e1f14ba55b742286c7f66, type: 3}
+  lowlandSprite: {fileID: 21300000, guid: 51d7df4c122d5d342aa8622381db5bbd, type: 3}
+  sandSprite: {fileID: 21300000, guid: 910e431b5d4d67f4084495aa6f4e3d1e, type: 3}
+  landSprite: {fileID: 21300000, guid: fd070e759ceec3643bdc0bff47cd0ce3, type: 3}
+  hillSprite: {fileID: 21300000, guid: 2494086c267303e40b5af2da591e8d3d, type: 3}
+  highlandSprite: {fileID: 21300000, guid: 7d2aedefe5b85e74c9f11622f39c1730, type: 3}
+  mountainSprite: {fileID: 21300000, guid: 988de4666b9ffef4f99949295e351fd1, type: 3}
+  peakSprite: {fileID: 21300000, guid: e969f3cd3f5f5594789e5ee0ca555df9, type: 3}
+  SwampSprite: {fileID: 21300000, guid: 7699c9ef2b48b874e9ec6523b39174cf, type: 3}
+  SwampLowlandSprite: {fileID: 21300000, guid: fd5c5ae116becd94baceaac7993e1173, type: 3}
+  foodResourceSprite: {fileID: 21300000, guid: 3209b9e38edbd064590098b4d2612c7c, type: 3}
+  bonusFoodResourceSprite: {fileID: 21300000, guid: ca7697b545e05f74fb338b36ab51ae33, type: 3}
+  woodResourceSprite: {fileID: 21300000, guid: f037cabc57d1f2642bf5f2f833803458, type: 3}
+  bonusWoodResourceSprite: {fileID: 21300000, guid: 51697510f175cc8429277cde261db0c6, type: 3}
+  mainOreResourceSprite: {fileID: 21300000, guid: b3041f7d54e38594895e0ca27950a863, type: 3}
+  bonusOreResourceSprite: {fileID: 21300000, guid: 1009ed0f666da4144bf2584c5921e98a, type: 3}
+  luxuryResourceSprite: {fileID: 21300000, guid: 9bf277c41258aab4a9b90950ed31681a, type: 3}
+--- !u!114 &3425373580003857007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580003857005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac9bd3f727601d418a6810dd82affb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3425373580003857001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580003857005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb6dd57d76bdd540b9884ebca9f333e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  riverStartSprite: {fileID: 21300000, guid: 939ea5702571cbd4f963bfdf8295608f, type: 3}
+  riverStartSpriteLeft: {fileID: 21300000, guid: a4a435a4a14a7de4c966401c3004e67d, type: 3}
+  riverStartSpriteUp: {fileID: 21300000, guid: 08cc045eb1c400b49b80deac52a9b9b0, type: 3}
+  riverStartSpriteRight: {fileID: 21300000, guid: cdd2b4de82d321c469a53cf3ce2c22bf, type: 3}
+  riverEndSprite: {fileID: 21300000, guid: 3495d26f138767e4b8d85ad12a6f5f4c, type: 3}
+  riverEndSpriteLeft: {fileID: 21300000, guid: 58e8f6221af72b64385a62c4d79014d3, type: 3}
+  riverEndSpriteUp: {fileID: 21300000, guid: 45a1acbd99316124c9e84a067ae11268, type: 3}
+  riverEndSpriteRight: {fileID: 21300000, guid: 4f8d34c2b05fea2449c79b03ae924777, type: 3}
+  riverStraightSprite: {fileID: 21300000, guid: 068633b61d095ff4e80fa7eb7ab8b30b, type: 3}
+  riverStraightSpriteHorizontal: {fileID: 21300000, guid: 8df87591d56adf944b37db05f49406cc, type: 3}
+  riverBendSprite: {fileID: 21300000, guid: b2a4fa77875f1db4587b899debc0f073, type: 3}
+  riverBendSpriteDL: {fileID: 21300000, guid: a02e027f37a8e4e4f9f11e0489a7d2f4, type: 3}
+  riverBendSpriteLU: {fileID: 21300000, guid: 55d09a8935dc0f9418e29353562ae885, type: 3}
+  riverBendSpriteUR: {fileID: 21300000, guid: 72f6fc3bb58f3164b9dce5de7f223e25, type: 3}
+  riverTripleSprite: {fileID: 21300000, guid: babca1c0c40833549a17c201e68f7a6d, type: 3}
+  riverTripleSprite1: {fileID: 21300000, guid: a69a4610d94f7524f9ad232126164150, type: 3}
+  riverTripleSprite2: {fileID: 21300000, guid: cdfbe5c2fb1f8674dbb642f75ff8cecd, type: 3}
+  riverTripleSprite3: {fileID: 21300000, guid: 6234de12247661444a12cc750619cfe4, type: 3}
+  riverQuadSprite: {fileID: 21300000, guid: ce2872a73c4dc0d41ab66fa30a182c63, type: 3}
+--- !u!1 &3425373580202519047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3425373580202519043}
+  - component: {fileID: 3425373580202519040}
+  - component: {fileID: 3425373580202519041}
+  - component: {fileID: 3425373580202519046}
+  - component: {fileID: 3425373580202519042}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3425373580202519043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580202519047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 84.81362, y: 181.27577, z: 0.6586914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3425373580003857006}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3425373580202519040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580202519047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d4af46ed9690842a63b68c363fb2f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3425373580202519041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580202519047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86be2b2d93a829945ab5afdbdbcc321c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 3425373580202519046}
+  createRaces: {fileID: 0}
+  M: {fileID: 0}
+  J: {fileID: 3425373580202519040}
+  mainGameCamera: {fileID: 0}
+  mapGenerationCamera: {fileID: 0}
+--- !u!114 &3425373580202519046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580202519047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df581f5ec6e25de40b4dadd181500e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createStuff: {fileID: 0}
+  mapArrayScript: {fileID: 0}
+  json: {fileID: 3425373580202519040}
+  blockArrayCreator: {fileID: 0}
+  R: {fileID: 3425373580003857004}
+  miniMapNavigation: {fileID: 3425373580202519042}
+  mapInfoText: {fileID: 0}
+  mapSize: 100
+  mapName: 
+  numberOfTerritories: 0
+  percentageOfLand: 0
+  numberOfRivers: 20
+  numberOfMountainRanges: 0
+--- !u!114 &3425373580202519042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425373580202519047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2817fb95f3dc35540a236ee3a93f24c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapRenderer: {fileID: 3425373580003857004}
+  miniMapDisplayImage: {fileID: 0}
+  gameManager: {fileID: 3425373580202519046}

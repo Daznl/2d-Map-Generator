@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 61dff130118e5ae48bdaceb51a362e8c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - HillMaker: {fileID: 5915028319434755519, guid: e067ae4a5c452aa42976c40a5f7c47a5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

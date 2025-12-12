@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 3dc17d0a8b0422e4eaba34ae1a4ea919
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ShallowWaterMaker: {fileID: 1597153943611083149, guid: 79eb0e49c5996fc4ba71e923b9158b00, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
