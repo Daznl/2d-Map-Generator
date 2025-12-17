@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static RacePreference;
 
 public class MapArrayScript: MonoBehaviour
 {
@@ -210,7 +209,7 @@ public class MapArrayScript: MonoBehaviour
         public ResourceList TerritoryResources;
         public bool isAllocated;
         public string occupantRaceName { get; set; }
-        public Dictionary<RaceLandPreference, List<CoordinateWithAmount>> spawnPointsByPreference;
+        //public Dictionary<RaceLandPreference, List<CoordinateWithAmount>> spawnPointsByPreference;
 
         public Territory(GenericCoordinate centerVal, int intid, string continentName)
         {
@@ -228,7 +227,7 @@ public class MapArrayScript: MonoBehaviour
             isAllocated = false;
             borders = new List<GenericArea>();
 
-            spawnPointsByPreference = new Dictionary<RaceLandPreference, List<CoordinateWithAmount>>();
+            //spawnPointsByPreference = new Dictionary<RaceLandPreference, List<CoordinateWithAmount>>();
         }
     }
 

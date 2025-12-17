@@ -1,9 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using Unity.Mathematics;
-using System;
 using System.Resources;
+using Unity.Jobs;
+using Unity.Mathematics;
+using UnityEngine;
 using UnityEngine.TestTools;
 using UnityEngine.TextCore.Text;
 using static MapArrayScript;
@@ -45,7 +46,7 @@ public class Building
     }
 
     public BuildingFunction Function { get; set; } // Specifies the function of the building
-    public LivingGroup OccupantGroup { get; set; }
+    //public LivingGroup OccupantGroup { get; set; }
     /*public List<Character> Occupants { get; set; } = new List<Character>();*/ // Characters living in the building
 
     public Building(BuildingFunction function)
@@ -53,25 +54,25 @@ public class Building
         Function = function;
     }
 
-    public void SetOccupantGroup(LivingGroup group)
-    {
-        OccupantGroup = group;
-        if (group != null)
-        {
-            group.IsHoused = true;
-            group.CurrentHome = this;
-        }
-    }
+    //public void SetOccupantGroup(LivingGroup group)
+    //{
+    //    OccupantGroup = group;
+    //    if (group != null)
+    //    {
+    //        group.IsHoused = true;
+    //        group.CurrentHome = this;
+    //    }
+    //}
 
-    public void ClearOccupantGroup()
-    {
-        if (OccupantGroup != null)
-        {
-            OccupantGroup.IsHoused = false;
-            OccupantGroup.CurrentHome = null;
-            OccupantGroup = null;
-        }
-    }
+    //public void ClearOccupantGroup()
+    //{
+    //    if (OccupantGroup != null)
+    //    {
+    //        OccupantGroup.IsHoused = false;
+    //        OccupantGroup.CurrentHome = null;
+    //        OccupantGroup = null;
+    //    }
+    //}
 }
 
 public class SearchToRadius
@@ -113,116 +114,116 @@ public class SearchToRadius
     }
 }
 
-public class Town
-{
-    public string Name { get; set; }
-    public Vector2Int Location { get; set; }
+//public class Town
+//{
+//    public string Name { get; set; }
+//    public Vector2Int Location { get; set; }
 
-    public int TownLevel { get; set; }
+//    public int TownLevel { get; set; }
 
-    public List<Construction> constructionsInProgress = new List<Construction>();
-    public List<TownConstruction> townConstructionInProgress = new List<TownConstruction>();
+//    public List<Construction> constructionsInProgress = new List<Construction>();
+//    public List<TownConstruction> townConstructionInProgress = new List<TownConstruction>();
 
-    public List<Building> Houses { get; private set; } = new List<Building>();
-    public List<Building> OccupiedHouse { get; private set; } = new List<Building>();
-    public List<Building> UnoccupiedHouse { get; private set; } = new List<Building>();
+//    public List<Building> Houses { get; private set; } = new List<Building>();
+//    public List<Building> OccupiedHouse { get; private set; } = new List<Building>();
+//    public List<Building> UnoccupiedHouse { get; private set; } = new List<Building>();
 
-    public Town(string name, Vector2Int location, int level)
-    {
-        Name = name;
-        Location = location;
-        TownLevel = level;
-    }
+//    public Town(string name, Vector2Int location, int level)
+//    {
+//        Name = name;
+//        Location = location;
+//        TownLevel = level;
+//    }
 
-    // Method to add a building as unoccupied initially
-    public void AddUnoccupiedHouse(Building building)
-    {
-        UnoccupiedHouse.Add(building);
-        Houses.Add(building);
-    }
+//    // Method to add a building as unoccupied initially
+//    public void AddUnoccupiedHouse(Building building)
+//    {
+//        UnoccupiedHouse.Add(building);
+//        Houses.Add(building);
+//    }
 
-    // Method to move a building from unoccupied to occupied
-    // This could be called when characters move into an unoccupied home
-    public void OccupyHouse(Building building)
-    {
-        if (UnoccupiedHouse.Remove(building))
-        {
-            OccupiedHouse.Add(building);
-        }
-    }
-}
+//    // Method to move a building from unoccupied to occupied
+//    // This could be called when characters move into an unoccupied home
+//    public void OccupyHouse(Building building)
+//    {
+//        if (UnoccupiedHouse.Remove(building))
+//        {
+//            OccupiedHouse.Add(building);
+//        }
+//    }
+//}
 
-public class TownConstruction
-{
-    //public Town town;
-    public int totalToConstruct;
-    public int progress;
-    public List<Job> jobs;
-    public Vector2Int location;
-    public Town town;
-    public TownConstruction(int inTotalToConstruct, Vector2Int inLocation, Town inTown)
-    {
-        totalToConstruct = inTotalToConstruct;
-        progress = 0; // Assuming progress should start at 0
-        jobs = new List<Job>(); // Initialize the jobs list
-        location = inLocation;
-        town = inTown;
-        //this.town = town;
-    }
-}
-public class Construction
-{
-    //public Town town;
-    public int totalToConstruct;
-    public int progress;
-    public Building building;
-    public List<Job> jobs;
-    public Construction(int inTotalToConstruct, Building building, Town town)
-    {
-        totalToConstruct = inTotalToConstruct;
-        progress = 0; // Assuming progress should start at 0
-        building = building;
-        jobs = new List<Job>(); // Initialize the jobs list
-        //this.town = town;
-    }
-}
+//public class TownConstruction
+//{
+//    //public Town town;
+//    public int totalToConstruct;
+//    public int progress;
+//    public List<Job> jobs;
+//    public Vector2Int location;
+//    public Town town;
+//    public TownConstruction(int inTotalToConstruct, Vector2Int inLocation, Town inTown)
+//    {
+//        totalToConstruct = inTotalToConstruct;
+//        progress = 0; // Assuming progress should start at 0
+//        jobs = new List<Job>(); // Initialize the jobs list
+//        location = inLocation;
+//        town = inTown;
+//        //this.town = town;
+//    }
+//}
+//public class Construction
+//{
+//    //public Town town;
+//    public int totalToConstruct;
+//    public int progress;
+//    public Building building;
+//    public List<Job> jobs;
+//    public Construction(int inTotalToConstruct, Building building, Town town)
+//    {
+//        totalToConstruct = inTotalToConstruct;
+//        progress = 0; // Assuming progress should start at 0
+//        building = building;
+//        jobs = new List<Job>(); // Initialize the jobs list
+//        //this.town = town;
+//    }
+//}
 
-public class LivingGroup
-{
-    public List<Character> Members { get; set; }
-    public bool IsHoused { get; set; }
-    public Building CurrentHome { get; set; } // This could be null for homeless groups
+//public class LivingGroup
+//{
+//    public List<Character> Members { get; set; }
+//    public bool IsHoused { get; set; }
+//    public Building CurrentHome { get; set; } // This could be null for homeless groups
 
-    public LivingGroup(List<Character> members, bool isHoused, Building currentHome = null)
-    {
-        Members = members;
-        IsHoused = isHoused;
-        CurrentHome = currentHome;
-    }
-}
+//    public LivingGroup(List<Character> members, bool isHoused, Building currentHome = null)
+//    {
+//        Members = members;
+//        IsHoused = isHoused;
+//        CurrentHome = currentHome;
+//    }
+//}
 
-public enum Gender
-{
-    Male,
-    Female
-}
-public struct Date
-{
-    public int Years { get; set; }
-    public int Days { get; set; }
+//public enum Gender
+//{
+//    Male,
+//    Female
+//}
+//public struct Date
+//{
+//    public int Years { get; set; }
+//    public int Days { get; set; }
 
-    public Date(int years, int days)
-    {
-        Years = years;
-        Days = days;
-    }
+//    public Date(int years, int days)
+//    {
+//        Years = years;
+//        Days = days;
+//    }
 
-    public override string ToString()
-    {
-        return $"Year: {Years}, Day: {Days}";
-    }
+//    public override string ToString()
+//    {
+//        return $"Year: {Years}, Day: {Days}";
+//    }
 
-}
+//}
 
 public enum GameResource
 {

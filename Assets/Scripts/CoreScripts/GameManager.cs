@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using static MapArrayScript;
-using static RaceBuildingFunctions;
+//using static RaceBuildingFunctions;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public MapRenderer R;
     public MiniMapNavigation miniMapNavigation;
     public TMP_Text mapInfoText;
-    public CreateRaces createRaces;
+    //public CreateRaces createRaces;
 
 
     /*private string saveDirectory = "/Resources/JsonSaves";
@@ -39,24 +39,24 @@ public class GameManager : MonoBehaviour
     public MapArrayScript.World LoadedWorld { get; private set; }
     public Block[,] gameMapBlocks;
 
-    public BuildingInfo[,] mapBuildings;
+    //public BuildingInfo[,] mapBuildings;
 
-    [System.Serializable]
-    public class BuildingInfo
-    {
-        public Vector2Int Coordinates;
-        public Sprite BuildingSprite;
-        public int OwnerID;
-        public BuildingType Type; // Add building type
+    //[System.Serializable]
+    ////public class BuildingInfo
+    ////{
+    ////    public Vector2Int Coordinates;
+    ////    public Sprite BuildingSprite;
+    ////    public int OwnerID;
+    ////    //public BuildingType Type; // Add building type
 
-        public BuildingInfo(Vector2Int coordinates, Sprite buildingSprite, int ownerID, BuildingType type)
-        {
-            Coordinates = coordinates;
-            BuildingSprite = buildingSprite;
-            OwnerID = ownerID;
-            Type = type;
-        }
-    }
+    ////    public BuildingInfo(Vector2Int coordinates, Sprite buildingSprite, int ownerID, BuildingType type)
+    ////    {
+    ////        Coordinates = coordinates;
+    ////        BuildingSprite = buildingSprite;
+    ////        OwnerID = ownerID;
+    ////        Type = type;
+    ////    }
+    ////}
 
     private void Awake()
     {
@@ -74,28 +74,28 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void InitialiseBuildingArray()
-    {
-        mapBuildings = new BuildingInfo[mapSize, mapSize];
-    }
+    //public void InitialiseBuildingArray()
+    //{
+    //    mapBuildings = new BuildingInfo[mapSize, mapSize];
+    //}
 
-    public void UpdateBuildingOverlay()
-    {
-        // Assuming GetStaticMapSprite() correctly returns a sprite with a non-read-only texture
-        Sprite staticMapSprite = R.staticMapImage.sprite; // Ensure mapRenderer is correctly referenced
-        Texture2D mapTexture = staticMapSprite.texture;
+    //public void UpdateBuildingOverlay()
+    //{
+    //    // Assuming GetStaticMapSprite() correctly returns a sprite with a non-read-only texture
+    //    Sprite staticMapSprite = R.staticMapImage.sprite; // Ensure mapRenderer is correctly referenced
+    //    Texture2D mapTexture = staticMapSprite.texture;
 
-        Texture2D textureCopy = new Texture2D(mapTexture.width, mapTexture.height, mapTexture.format, true); // true to enable mipmaps
-        Graphics.CopyTexture(mapTexture, textureCopy);
+    //    Texture2D textureCopy = new Texture2D(mapTexture.width, mapTexture.height, mapTexture.format, true); // true to enable mipmaps
+    //    Graphics.CopyTexture(mapTexture, textureCopy);
 
-        // Overlay buildings
-        R.OverlayBuildings(textureCopy); // Pass textureCopy to be modified
+    //    // Overlay buildings
+    //    R.OverlayBuildings(textureCopy); // Pass textureCopy to be modified
 
-        // Replace the dynamic overlay sprite
-        Sprite updatedMapSprite = Sprite.Create(textureCopy, new Rect(0, 0, textureCopy.width, textureCopy.height), new Vector2(0.5f, 0.5f), 100.0f);
-        R.displayImage.sprite = updatedMapSprite; // Make sure raceMapImage is set up to display the dynamic layer
-        UpdateMiniMap();
-    }
+    //    // Replace the dynamic overlay sprite
+    //    Sprite updatedMapSprite = Sprite.Create(textureCopy, new Rect(0, 0, textureCopy.width, textureCopy.height), new Vector2(0.5f, 0.5f), 100.0f);
+    //    R.displayImage.sprite = updatedMapSprite; // Make sure raceMapImage is set up to display the dynamic layer
+    //    UpdateMiniMap();
+    //}
 
     void UpdateMiniMap()
     {
@@ -168,9 +168,9 @@ public class GameManager : MonoBehaviour
         mapInfoText.text = mapInfo;
     }
 
-    public void CreateRaces()
-    {
-        createRaces.CreateRacesStart();
-    }
+    //public void CreateRaces()
+    //{
+    //    createRaces.CreateRacesStart();
+    //}
 }
 

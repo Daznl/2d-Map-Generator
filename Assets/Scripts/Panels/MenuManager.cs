@@ -3,19 +3,19 @@ using UnityEngine;
 public class MenuManager : MonoBehaviour
 {
     public GameObject mainMenuPanel;
-    public GameObject raceInformationPanel;
+    //public GameObject raceInformationPanel;
     public GameObject gameFunctionsPanel;
     public GameObject settingsPanel;
     public GameObject importExportPanel;
-    public GameObject raceDisplayOptionsPanel;
-    public RaceInfoPanel raceInfoPanel;
+   // public GameObject raceDisplayOptionsPanel;
+    //public RaceInfoPanel raceInfoPanel;
     public GameObject panelText;
 
     void Start()
     {
-        raceDisplayOptionsPanel.SetActive(false);
+        //raceDisplayOptionsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
-        raceInformationPanel.SetActive(false);
+        //raceInformationPanel.SetActive(false);
         gameFunctionsPanel.SetActive(false);
         settingsPanel.SetActive(false);
         importExportPanel.SetActive(false);
@@ -23,21 +23,21 @@ public class MenuManager : MonoBehaviour
     public void ShowPanel(GameObject panelToShow)
     {
         mainMenuPanel.SetActive(false);
-        raceInformationPanel.SetActive(false);
+        //raceInformationPanel.SetActive(false);
         gameFunctionsPanel.SetActive(false);
         settingsPanel.SetActive(false);
         importExportPanel.SetActive(false);
-        raceDisplayOptionsPanel.SetActive(false);
+        //raceDisplayOptionsPanel.SetActive(false);
 
         panelToShow.SetActive(true);
     }
 
-    public void OnRaceInformationButtonClicked()
-    {
-        ShowPanel(raceInformationPanel);
-        Debug.Log("Race button clicked: ");
-        FindObjectOfType<RaceInfoPanel>().CreateRaceButtons();
-    }
+    //public void OnRaceInformationButtonClicked()
+    //{
+    //    ShowPanel(raceInformationPanel);
+    //    Debug.Log("Race button clicked: ");
+    //    FindObjectOfType<RaceInfoPanel>().CreateRaceButtons();
+    //}
 
     public void OnSettingsButtonClicked()
     {

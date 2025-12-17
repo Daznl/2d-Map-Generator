@@ -130,26 +130,26 @@ public class MiniMapNavigation : MonoBehaviour
                     }
 
                     // Then, overlay the building if there is one
-                    if (gameManager.mapBuildings != null && worldX < gameManager.mapBuildings.GetLength(0) && worldY < gameManager.mapBuildings.GetLength(1))
-                    {
-                        GameManager.BuildingInfo building = gameManager.mapBuildings[worldX, worldY];
-                        if (building != null && building.BuildingSprite != null)
-                        {
-                            // Ensure the building sprite's texture is readable
-                            if (building.BuildingSprite.texture.isReadable)
-                            {
-                                Color[] buildingPixels = building.BuildingSprite.texture.GetPixels(
-                                    (int)building.BuildingSprite.textureRect.x,
-                                    (int)building.BuildingSprite.textureRect.y,
-                                    pixelSize, pixelSize);
-                                miniMapTexture.SetPixels(x * pixelSize, y * pixelSize, pixelSize, pixelSize, buildingPixels);
-                            }
-                            else
-                            {
-                                Debug.LogWarning("Building sprite texture is not readable. Make sure 'Read/Write Enabled' is checked in the texture import settings.");
-                            }
-                        }
-                    }
+                    //if (gameManager.mapBuildings != null && worldX < gameManager.mapBuildings.GetLength(0) && worldY < gameManager.mapBuildings.GetLength(1))
+                    //{
+                    //    GameManager.BuildingInfo building = gameManager.mapBuildings[worldX, worldY];
+                    //    if (building != null && building.BuildingSprite != null)
+                    //    {
+                    //        // Ensure the building sprite's texture is readable
+                    //        if (building.BuildingSprite.texture.isReadable)
+                    //        {
+                    //            Color[] buildingPixels = building.BuildingSprite.texture.GetPixels(
+                    //                (int)building.BuildingSprite.textureRect.x,
+                    //                (int)building.BuildingSprite.textureRect.y,
+                    //                pixelSize, pixelSize);
+                    //            miniMapTexture.SetPixels(x * pixelSize, y * pixelSize, pixelSize, pixelSize, buildingPixels);
+                    //        }
+                    //        else
+                    //        {
+                    //            Debug.LogWarning("Building sprite texture is not readable. Make sure 'Read/Write Enabled' is checked in the texture import settings.");
+                    //        }
+                    //    }
+                    //}
                 }
             }
         }

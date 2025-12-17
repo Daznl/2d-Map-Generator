@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\panels\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panels\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|c:\\users\\danie\\onedrive\\desktop\\unity\\2d-map-generator\\assets\\scripts\\corescripts\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\corescripts\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\corescripts\\keyinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\corescripts\\keyinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\mapmakingscripts\\coremapscripts\\createstuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapmakingscripts\\coremapscripts\\createstuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\maprenderer\\maprenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maprenderer\\maprenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\maprenderer\\minimapnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maprenderer\\minimapnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\corescripts\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\corescripts\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\mapmakingscripts\\makerscripts\\sandmakerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapmakingscripts\\makerscripts\\sandmakerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\corescripts\\maparrayscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\corescripts\\maparrayscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\panels\\gametextdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panels\\gametextdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\corescripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\corescripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\mapmakingscripts\\coremapscripts\\blockarraycreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapmakingscripts\\coremapscripts\\blockarraycreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\mapmakingscripts\\coremapscripts\\createstuffsimplefuncions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapmakingscripts\\coremapscripts\\createstuffsimplefuncions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\assets\\scripts\\mapmakingscripts\\coremapscripts\\mapgenerationfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9D8E64-D2FC-2202-8F4A-69FADE8C5A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapmakingscripts\\coremapscripts\\mapgenerationfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TODOLIST.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\TODOLIST.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoreScripts\\TODOLIST.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\TODOLIST.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoreScripts\\TODOLIST.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:10:13.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateStuff.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\CreateStuff.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\CreateStuff.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\CreateStuff.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\CreateStuff.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:09:08.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MapRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapRenderer\\MapRenderer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapRenderer\\MapRenderer.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapRenderer\\MapRenderer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapRenderer\\MapRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:06:56.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MiniMapNavigation.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapRenderer\\MiniMapNavigation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapRenderer\\MiniMapNavigation.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapRenderer\\MiniMapNavigation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapRenderer\\MiniMapNavigation.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAmwJcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:06:16.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\Classes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoreScripts\\Classes.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\Classes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoreScripts\\Classes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:03:59.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SandMakerScript.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\MakerScripts\\SandMakerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapMakingScripts\\MakerScripts\\SandMakerScript.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\MakerScripts\\SandMakerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapMakingScripts\\MakerScripts\\SandMakerScript.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:01:01.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\Panels\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panels\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\Panels\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panels\\MenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:00:29.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameTextDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\Panels\\GameTextDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panels\\GameTextDisplay.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\Panels\\GameTextDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panels\\GameTextDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T06:59:51.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KeyInput.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\KeyInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoreScripts\\KeyInput.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\KeyInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoreScripts\\KeyInput.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T06:59:37.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MapArrayScript.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\MapArrayScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoreScripts\\MapArrayScript.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\MapArrayScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoreScripts\\MapArrayScript.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAqwNMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T06:58:42.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoreScripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\CoreScripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoreScripts\\GameManager.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAuwLAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T06:58:04.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlockArrayCreater.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\BlockArrayCreater.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\BlockArrayCreater.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\BlockArrayCreater.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\BlockArrayCreater.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T06:57:04.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateStuffSimpleFuncions.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\CreateStuffSimpleFuncions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\CreateStuffSimpleFuncions.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\CreateStuffSimpleFuncions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\CreateStuffSimpleFuncions.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAuwOUAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T06:56:45.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MapGenerationFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\MapGenerationFunctions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\MapGenerationFunctions.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Unity\\2d-Map-Generator\\Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\MapGenerationFunctions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapMakingScripts\\CoreMapScripts\\MapGenerationFunctions.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T06:56:19.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

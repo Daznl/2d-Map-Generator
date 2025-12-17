@@ -6,7 +6,7 @@ using System.IO;
 public class KeyInput : MonoBehaviour
 {
     public GameManager gameManager;
-    public CreateRaces createRaces;
+    //public CreateRaces createRaces;
     public MapArrayScript M;
     public Json J;
 
@@ -29,12 +29,12 @@ public class KeyInput : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             Debug.Log("Keypress P");
-            createRaces.CreateRacesStart();
+            //createRaces.CreateRacesStart();
         }
     }
 
-    public void CreateRaces()
-    {
-        createRaces.CreateRacesStart();
-    }
+    //public void CreateRaces()
+    //{
+    //    createRaces.CreateRacesStart();
+    //}
 }

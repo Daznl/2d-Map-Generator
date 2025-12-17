@@ -144,28 +144,28 @@ public class MapRenderer : MonoBehaviour
         displayImage.sprite = combinedSprite;
     }
 
-    public void OverlayBuildings(Texture2D mapTexture)
-    {
-        BuildingInfo[,] mapBuildings = gameManager.mapBuildings; // Reference to your building info array
-        int buildingPixelSize = 20; // Assuming each building occupies a 20x20 pixel space
+    //public void OverlayBuildings(Texture2D mapTexture)
+    //{
+    //    BuildingInfo[,] mapBuildings = gameManager.mapBuildings; // Reference to your building info array
+    //    int buildingPixelSize = 20; // Assuming each building occupies a 20x20 pixel space
 
-        for (int x = 0; x < mapBuildings.GetLength(0); x++)
-        {
-            for (int y = 0; y < mapBuildings.GetLength(1); y++)
-            {
-                BuildingInfo building = mapBuildings[x, y];
-                if (building != null && building.BuildingSprite != null)
-                {
-                    Color[] pixels = building.BuildingSprite.texture.GetPixels(
-                        (int)building.BuildingSprite.rect.x,
-                        (int)building.BuildingSprite.rect.y,
-                        buildingPixelSize, buildingPixelSize);
-                    mapTexture.SetPixels(x * buildingPixelSize, y * buildingPixelSize, buildingPixelSize, buildingPixelSize, pixels);
-                }
-            }
-        }
+    //    for (int x = 0; x < mapBuildings.GetLength(0); x++)
+    //    {
+    //        for (int y = 0; y < mapBuildings.GetLength(1); y++)
+    //        {
+    //            BuildingInfo building = mapBuildings[x, y];
+    //            if (building != null && building.BuildingSprite != null)
+    //            {
+    //                Color[] pixels = building.BuildingSprite.texture.GetPixels(
+    //                    (int)building.BuildingSprite.rect.x,
+    //                    (int)building.BuildingSprite.rect.y,
+    //                    buildingPixelSize, buildingPixelSize);
+    //                mapTexture.SetPixels(x * buildingPixelSize, y * buildingPixelSize, buildingPixelSize, buildingPixelSize, pixels);
+    //            }
+    //        }
+    //    }
 
-        mapTexture.Apply(); // Apply changes to the texture
-    }
+    //    mapTexture.Apply(); // Apply changes to the texture
+    //}
 
 }
